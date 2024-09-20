@@ -1,0 +1,27 @@
+/*
+Septermber 19, 2024
+Jonathan Pope
+*/
+
+header{
+    background-color: aqua;
+}
+footer{
+    background-color: aqua;
+}
+p, ul, li{
+    font-size: 20px;
+}
+
+a:link{
+    color: brown;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    font-size: 50px;
+}
+a:active{
+    color:aliceblue;
+}
