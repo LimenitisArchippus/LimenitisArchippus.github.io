@@ -1,0 +1,41 @@
+/*
+    Jonathan Pope
+    October 15, 2024
+*/
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+header{
+    background-color: #a8D6EB;
+}
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 1.5em;
+}
+#value{
+    background-color: #AEF0CC;
+
+}
+#example{
+    background-color: #E3ADB9;
+
+}
+p.None{
+    text-decoration: none;
+}
+p.Underline{
+    text-decoration: underline;
+}
+p.Overline{
+    text-decoration: overline
+}
+p.LineThrough{
+    text-decoration: line-through;
+}
+
