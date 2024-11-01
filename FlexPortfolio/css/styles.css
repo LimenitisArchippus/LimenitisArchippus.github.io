@@ -1,0 +1,10 @@
+body{
+    background-color:#dfffff;
+}
+h1{
+    font-size: x-large;
+}
+nav ol{
+    display: block;
+    list-style-type: disc;
+}
