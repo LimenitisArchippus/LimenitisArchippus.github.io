@@ -1,0 +1,126 @@
+/*Custom Fonts*/
+@font-face {
+    font-family: Roboto;
+    src: url(/PersonalPortfolioFinal/fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(/PersonalPortfolioFinal/fonts/Poppins/Poppins-Black.otf);
+}
+
+/*gives all files the same background color*/
+html{
+    background-color:#5DA1AD;
+}
+
+body{
+    margin: 0px;
+}
+
+/*Header items*/
+header{
+    border-bottom: 1px solid black;
+    background-color: aquamarine;
+}
+div.headerDiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*Navigation Items within the header*/
+nav ul{
+    font-family: Roboto, Poppins, sans-serif;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+
+   
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    float: left;
+    
+    
+}
+nav ul a:link{
+    background-color:aquamarine;
+}
+nav ul a:hover{
+    background-color: aqua;
+
+}
+nav ul a:active{
+    background-color: rgba(3, 91, 224, 0.397);
+}
+/*Header items*/
+
+/*Main Items*/
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+span.bold{
+    
+    font-weight: bold;
+}
+span.italic{
+    
+    font-style: italic;
+}
+main p{
+    display: block;
+    text-align: center;
+    font-family: Roboto, Poppins, sans-serif;
+}
+main p:first-child{
+    padding-top: 0px;
+}
+
+
+main h1{
+    text-align: center;
+}
+main h2{
+    text-align: center;
+}
+main h3{
+    text-align: center;
+}
+main li{
+    list-style-type: none;
+    text-align: center;
+    font-family: Roboto, Poppins, sans-serif;
+}
+/*Main Items*/
+
+/*Footer Items*/
+footer{
+    border-top: 1px solid black;
+    background-color: aquamarine;
+	font-size: 1em;
+    font-family: Roboto, Poppins, sans-serif;
+	text-align: center;
+    margin: 0px;
+    padding: 8px;
+
+}
+footer p{
+    margin: 0px;
+    padding: 3px;
+    justify-content: center;
+}
+/*Footer Items*/

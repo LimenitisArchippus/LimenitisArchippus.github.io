@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Roboto;
+    src: url(//PersonalPortfolioFinal/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(/PersonalPortfolioFinal/fonts/Poppins/Poppins-Black.otf);
+}
+table {
+    display:flex;
+    justify-content: center;
+
+    font-family: Roboto, Poppins, sans-serif;
+    border-collapse: collapse;
+    
+    padding-bottom: 10px;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: aquamarine;
+  }

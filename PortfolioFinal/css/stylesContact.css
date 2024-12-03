@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Roboto;
+    src: url(//PersonalPortfolioFinal/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(/PersonalPortfolioFinal/fonts/Poppins/Poppins-Black.otf);
+}
+fieldset{
+    border: 1px solid black;
+    margin: 10px;
+    margin-right: 10%;
+    padding: 0px;
+    font-family: Roboto, Poppins, sans-serif;
+}
+
+div {
+    margin: 10px;
+}
+
+label:not(#legendLabel) {
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+
+input{
+    border: 1px solid black;
+    transition: all 0.5s ease;
+}
+input:focus{
+    padding: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+select{
+    border: 1px solid black;
+}
+
+textarea{
+    border: 1px solid black;
+}
+
+.formP{
+    text-align: left;
+}

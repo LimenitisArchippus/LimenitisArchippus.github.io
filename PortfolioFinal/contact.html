@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--Jonathan Pope, November 24, 2024-->
+
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta name="auther" content="Jonathan Pope">
+        <meta charset="UTF-8" >
+        <meta name="description" content="Jonathan Pope software app designer Boise Idaho Personal Portfolio Contact Page" >
+        <meta name="keywords" content="client-side server-side software developer programmer Contact Portfolio" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/stylesContact.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!---->
+        <header>
+            <!--Logo Image CURRENTLY A PLACEHOLDER-->
+            <div class="headerDiv">
+                <a class="logoImage" href="home.html"><img src="images/CircleToolLogo80x80.png" alt="Logo Image"></a>
+                <h1>WELCOME TO MY PORTFOLIO</h1>
+            </div>
+            <!--Navigation-->
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experiance.html">Experiance</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="mailto:jonathanpope@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                <!-- Group Fields Together, page 104 -->
+                <fieldset>
+                <legend>How do I contact you?</legend>
+        
+                    <!-- Person to Contact Select Box, page 97 -->
+                    <div>
+                        <label for="PersonToContact"> Person to Contact: </label>
+                        <input type="text" name="PersonToContact" id="PersonToContact" placeholder="John Doe">
+                    </div>
+        
+                    <!-- Email, textbook file rental.html -->	
+                    <!--Video 9.9 Building and Testing a Valid Form-->	
+                    <div>
+                        <label for="email"> Email: </label>
+                        <input type="email" name="email" id="email" placeholder="johndoe@email.com" required>
+                    </div>
+        
+                    <!-- Phone, textbook file rental.html-->
+                    <!--Video 9.9 Building and Testing a Valid Form-->
+                    <div>
+                        <label for="telephone"> Phone Number: </label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="+1555-555-5555" required>
+                    </div>
+        
+                
+        
+                <!-- Group Fields Together, page 104 -->
+                
+                    <label id="legendLabel">What opportunities are available at your company?</label>
+                    <!-- Select Box, page 98 -->
+                     <div>
+                        <label for="position">Type of Position: </label>
+                        <select name="position" id="position">
+                            <option value="Internship">Internship</option>
+                            <option value="Part-time">Part-time</option>
+                            <option value="Full-time">Full-Time</option>
+                            <option value="Contract">Contract</option>
+                            <option value="Temporary">Temporary</option>
+                            <option value="On Call">On Call</option>
+                        </select>
+                     </div>
+        
+                    <!-- Radio Buttons, page 99 -->
+                     <div>
+                        <p class="formP">How did you find me?</p>
+                        <input type="radio" name="hear" id="LinkedIn" value="LinkedIn"> <label for="LinkedIn">LinkedIn</label> 
+                        <input type="radio" name="hear" id="JobFair" value="Job Fair"> <label for="JobFair">Job Fair</label> 
+                        <input type="radio" name="hear" id="CWICorporatePartner" value="CWI Corporate Partner"> <label for="CWICorporatePartner">CWI Corporate Partner</label>
+                        <input type="radio" name="hear" id="Other" value="Other"> <label for="Other">Other</label>
+                        <input type="radio" name="hear" id="N/A" value="N/A"> <label for="N/A">N/A</label> 
+                     </div>
+        
+                    <div>
+                        <!-- Text Area, textbook file code-9-1.html -->	
+                         <textarea name="TextBox" id="TextBox" cols="100" rows="10" placeholder="How should I prepare for my interview?"></textarea>
+        
+                    </div>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+             </form>
+        </main>
+
+        <footer>
+            <p>Find Me on These Platforms</p>
+            <span class="footerSpan">
+                <a href="https://github.com/LimenitisArchippus/LimenitisArchippus.github.io" target="_blank"><img src="images/iconmonstr-github-4-240.png" alt="github logo"></a>
+                <a href="https://www.linkedin.com/in/jonathan-m-pope-6315b9293/" target="_blank"><img src="images/iconmonstr-linkedin-4-240.png" alt="linkedin logo"></a>
+            </span>
+        </footer>
+
+
+    </body>
+</html>
