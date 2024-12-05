@@ -1,12 +1,12 @@
 /*Custom Fonts*/
 @font-face {
     font-family: Roboto;
-    src: url(/PersonalPortfolioFinal/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
     font-weight: bold;
 }
 @font-face {
     font-family: Poppins;
-    src: url(/PersonalPortfolioFinal/fonts/Poppins/Poppins-Black.otf);
+    src: url(../fonts/Poppins/Poppins-Black.otf);
 }
 
 /*gives all files the same background color*/
