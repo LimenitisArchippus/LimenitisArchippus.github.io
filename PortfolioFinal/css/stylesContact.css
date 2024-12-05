@@ -1,11 +1,11 @@
 @font-face {
     font-family: Roboto;
-    src: url(//PersonalPortfolioFinal/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(/PersonalPortfolioFinal/fonts/Poppins/Poppins-Black.otf);
+    src: url(../fonts/Poppins/Poppins-Black.otf);
 }
 fieldset{
     border: 1px solid black;
