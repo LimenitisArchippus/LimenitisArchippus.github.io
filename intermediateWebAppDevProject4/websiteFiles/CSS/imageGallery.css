@@ -1,0 +1,13 @@
+section.gallery {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 1em auto;
+    width: 800px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 1em;
+    text-align: center;
+}
+section.gallery h1, section.gallery h2 { 
+    color: #006000;
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/jquery": "^3.5.32",
+    "d": "^1.0.2",
+    "jquery": "^3.7.1",
+    "typescript": "^5.8.2"
+  }
+}
