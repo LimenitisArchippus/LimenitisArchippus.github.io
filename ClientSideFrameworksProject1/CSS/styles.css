@@ -1,0 +1,97 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.bg-flamingo{
+    background-color: #fe84a4;
+}
+
+.flamingo-logo{
+    max-width: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    padding-left: 15px;
+}
+
+.img-text{
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+}
+
+.card-st{
+    background-color: #ffb4c8;
+}
+
+.img-center{
+    max-height: 20%;
+}
+
+.home{
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../images/MotoGPTurn.webp);
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+.about{
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../images/GroupCornerChange.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.span-bg{
+    background-color: #000000;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+#quote{
+    padding-bottom: 5px;
+}
+
+form{
+    display: grid;
+    text-align: right;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+input{
+    display: inline-block;
+    margin-left: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}

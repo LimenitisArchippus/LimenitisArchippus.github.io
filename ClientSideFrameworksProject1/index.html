@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+  <script src="JS/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="p-5 bg-flamingo text-black text-left">
+    <div class="img-text">
+        <img class="flamingo-logo" src="images/ChatGPT Image Apr 27, 2025, 02_55_36 AM.png" alt="">
+        <div class="title">
+          <h1>Flamingo Motorcycle Insurance</h1>
+          <p>One Leg Up</p> 
+        </div>
+  
+    </div>
+    
+    
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#quote">Quote</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Customer Statements</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="home">
+    <div class="home">
+      <h2 class=""><span class="span-bg">Flamingo Motorcycle Insurance is here to protect you</span></h1>
+      <p> <span class="span-bg">Flamingo Motorcycle Insurance is here for you when you make a mistake, or when things go wrong. Flamingo Motorcycle Insurance is the only insurance company that has special coverage for stunting and racing.</span> </p>
+    </div>
+  </section>
+
+  <section id="quote" class="container-fluid">
+    <h2 class="text-center">For a quote, give us some information and we will get back with you</h2>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <form action="index.html" class="" id="quote_form">
+          <div>
+            <label for="email_address">Email:</label>
+            <input type="text" name="email_address" id="email_address">
+            <span class="text-danger">*</span>
+          </div>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="number" name="phone_number" id="phone_number">
+            <span class="text-danger">*</span>
+          </div>
+          <div>
+            <label for="Make">Make:</label>
+            <input type="text" for="make" id="make">
+            <span class="text-danger">*</span>
+          </div>
+          <div>
+            <label for="model">Model:</label>
+            <input type="text" for="model" id="model">
+            <span class="text-danger">*</span>
+          </div>
+          <div>
+            <label for="year">Year:</label>
+            <input type="number" name="year" id="year">
+            <span class="text-danger">*</span>
+          </div>
+          <div class="buttons">
+            <label>&nbsp;</label>
+            <input type=button id=register value=Register>
+            <input type=button id=reset_form value=Reset>
+        </div>
+      </form>        
+    </div>
+
+      <div class="col-sm-2"></div>
+    </div>
+    
+    <script src="JS/quote.js"></script>
+  </section>
+
+  <section id="about">
+    <div class="about">
+      <h2> <span class="span-bg">About Us</span> </h1>
+      <p> <span class="span-bg">Flamingo Motorcycle Insurance was founded for those who wish to take the wild ride while still being protected. Those who wish to take their bike to a track and know they have the utmost financial protection should things go south. If you take a turn to fast, lose traction, or loop your bike during a wheelie, you will know that it will be covered under our special stunt and race coverages.</span></p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="row">
+      <div class="col-sm-4 card card-st">
+        <div class="card-header"><img class="img-fluid" src="images/Wheelie.jpg" alt="Yamaha R6 on track"></div>
+        <div class="card-body"><p>"With Flamingo's special coverage for wheelies and track racing, I can have the most fun with the least worry!"</p></div>
+        <div class="card-footer text-end">- Michael Daytona</div>
+      </div>
+
+      <div class="col-sm-4 card card-st">
+        <div class="card-header"><img class="img-fluid" src="images/YamahaR6OnTrach.jpg" alt="Yamaha R6 on track"></div>
+        <div class="card-body"><p>"When I crashed my r6 on track, my insurance company wouldnt cover it, but Flamingo stepped up"</p></div>
+        <div class="card-footer text-end">- Jacob Staton</div>
+      </div>
+
+      <div class="col-sm-4 card card-st">
+        <div class="card-header"><img class="img-fluid" src="images/sv650Crashed.jpeg" alt="crashed sv650"></div>
+        <div class="card-body"><p>"After totaling my SV650 during a wheelie, Flamingo covered all damages without increasing my premiums!"</p></div>
+        <div class="card-footer text-end">- Janis</div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2 class="text-center">For any other inquiries, contact us below!</h2>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <form action="index.html" id="contact_form">
+          <div>
+              <label for=email_address>E-Mail:</label>
+              <input type=text name=email_address id=contact_email_address>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label for=phone>Mobile Phone:</label>
+              <input type=text name=phone id=contact_phone>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label for=first_name>First Name:</label>
+              <input type=text name=first_name id=first_name>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label for=last_name>Last Name:</label>
+              <input type=text name=last_name id=last_name>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label for=state>State:</label>
+              <input type=text name=state id=state>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label for=zip>Zip Code:</label>
+              <input type=number name=zip id=zip>
+              <span class="text-danger">*</span>
+          </div>
+          <div>
+              <label>Contact me by:</label> 
+              <input type=radio name=contact id=email value=email checked>Email
+              <input type=radio name=contact id=text value=text>Text
+          </div>
+          <div class="buttons">
+              <label>&nbsp;</label>
+              <input type=button id=contact_register value=Register>
+              <input type=button id=contact_reset_form value=Reset>
+          </div>
+      </form>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <script src="JS/contact.js"></script>
+  </section>
+</main>
+
+<footer>
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>© 2025 Barqs Tree Planting and Forestry Services. All Rights Reserved</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
