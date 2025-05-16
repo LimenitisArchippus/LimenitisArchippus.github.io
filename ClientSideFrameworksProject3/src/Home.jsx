@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { contRender } from "./main.jsx"
+import { contRender } from "./Main.jsx"
 
 function Button({ onButtonClick }){
   return (
